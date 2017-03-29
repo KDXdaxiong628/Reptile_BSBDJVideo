@@ -23,7 +23,7 @@ def search():
             filename = '%s/%s' %(root, i)
             listbox.insert(END, filename) # 往列表插入数据
 
-# 文件双击事件
+# 文件双击事件.
 def click(event):
     index = listbox.curselection()[0] #选中的位置
     path = listbox.get(index)
